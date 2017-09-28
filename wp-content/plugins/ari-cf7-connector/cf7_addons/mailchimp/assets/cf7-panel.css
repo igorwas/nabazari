@@ -1,0 +1,89 @@
+.ari-cf7c-mailchimp-apikey-popup {
+    max-width: 560px;
+}
+
+.ari-cf7c-mailchimp-apikey-current-panel {
+    display: none;
+}
+
+.ari-cf7c-mailchimp-apikey-defined .ari-cf7c-mailchimp-apikey-current-panel {
+    display: block;
+}
+
+.ari-cf7c-mailchimp-apikey-defined .ari-cf7c-mailchimp-apikey-new-panel {
+    display: none;
+}
+
+.ari-cf7c-mailchimp-apikey-manual {
+    margin-top: 10px;
+}
+
+.ari-cf7-mailchimp-subscription-list .ari-cloner-template.ari-last-item .ari-cf7c-mailchimp-subscription-separator {
+    display: none;
+}
+
+.ari-cf7c-mailchimp-list-container .ari-cloner-template.ari-last-item .ari-cf7c-mailchimp-list-separator {
+    display: none;
+}
+
+.ari-cf7c-mailchimp-customfields-hidden .ari-cf7c-mailchimp-customfields-container {
+    display: none;
+}
+
+.ari-cf7c-mailchimp-customfields-container LABEL {
+    font-weight: 600;
+}
+
+TD.ari-cf7c-mailchimp-list-container {
+    white-space: nowrap;
+}
+
+.ari-cf7c-mailchimp-customfields-template.ari-first-item.ari-last-item .ari-fly-action-panel {
+    display: none;
+}
+
+.ari-cf7c-mailchimp-list-container TABLE {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.ari-cf7c-mailchimp-list-item>DIV {
+    padding: .3em;
+}
+
+.ari-cf7c-mailchimp-list-container .ari-cf7c-mailchimp-list-item:nth-of-type(2n)>DIV {
+    background-color: rgba(235, 235, 235, 0.8);
+}
+
+.ari-cf7-mailchimp-subscription-list .ari-cf7c-mailchimp-subscription-item {
+    padding: .2em;
+}
+
+.ari-cf7c-mailchimp-list-item .ari-cf7c-mailchimp-list-item-actions {
+    position: relative;
+}
+
+.ari-cf7c-mailchimp-list-item.ari-first-item.ari-last-item .ari-cf7c-mailchimp-list-item-actions {
+    display: none;
+}
+
+.ari-cf7c-mailchimp-list-container {
+    counter-reset: mcsubscription;
+}
+
+.ari-cf7c-mailchimp-list-item-actions:before {
+    counter-increment: mcsubscription;
+    content: counters(mcsubscription,'.');
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+    font-size: 1.2em;
+    background-color: #bbb;
+    color: #fff;
+    padding: 5px;
+    width: 22px;
+    height: 22px;
+    border-radius: 18px;
+    line-height: 22px;
+    text-align: center;
+}

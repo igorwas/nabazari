@@ -1,0 +1,110 @@
+.ari-cf7c-select-all,
+.ari-cf7c-insert-content {
+    cursor: pointer;
+}
+
+.ari-cf7c-tags-panel {
+    font-size: 0.9em;
+}
+
+.ari-cf7c-tag {
+    padding: 1px 2px;
+}
+
+.ari-cf7c-tags-panel .ari-cf7c-tag,
+.ari-cf7c-tags-panel .ari-cf7c-tag.button {
+    display: inline-block;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.ari-cf7c-panel-note {
+    font-size: 0.9em;
+}
+
+.ari-cf7c-button-max {
+    width: 100%;
+    text-align: center;
+}
+
+.ari-cf7c-block {
+    margin-top: 10px;
+}
+
+.ari-cf7c-block-small {
+    margin-top: 3px;
+}
+
+/* Popup styles */
+.ari-cf7c-popup {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    width: auto;
+}
+
+.ari-cf7c-popup-title H2,
+.ari-cf7c-popup-title H3 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Grid system */
+.ari-grid-row {
+    position: relative;
+    width: 100%;
+}
+
+.ari-grid-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ari-grid-row [class*='ari-grid-col-'] {
+    float: left;
+    width: 96%;
+    margin: 0.5rem 0;
+}
+
+.ari-grid-hidden-s {
+    display: none;
+}
+
+.ari-grid-show-s {
+    display: block;
+}
+
+.ari-clear {
+    clear: both;
+}
+
+.ari-left {
+    float: left;
+}
+
+.ari-text-right {
+    text-align: right;
+}
+
+@media only screen and (min-width: 782px) {
+    .ari-grid-row .ari-grid-col-6 {
+        width: 46%;
+    }
+
+    .ari-grid-hidden-s {
+        display: block;
+    }
+
+    .ari-grid-show-s {
+        display: none;
+    }
+}
+
+.ari-fly-action-panel {
+    position: absolute;
+    top: 50%;
+    margin-top: -11px;
+    right: .2em;
+}

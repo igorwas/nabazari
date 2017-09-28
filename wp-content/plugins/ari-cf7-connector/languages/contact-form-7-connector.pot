@@ -1,0 +1,774 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Contact Form 7 Connector "
+"v1.1.0\n"
+"POT-Creation-Date: "
+"2017-05-29 10:40+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: ARI Soft "
+"<info@ari-soft.com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"assets\n"
+"X-Poedit-"
+"SearchPathExcluded-1: "
+"languages\n"
+"X-Poedit-"
+"SearchPathExcluded-2: "
+"readme.txt\n"
+"X-Poedit-"
+"SearchPathExcluded-3: "
+"cf7_addons/mailchimp/"
+"assets\n"
+"X-Poedit-"
+"SearchPathExcluded-4: "
+"libraries/vendor\n"
+"X-Poedit-"
+"SearchPathExcluded-5: "
+"cf7_addons/mailchimp/"
+"libraries\n"
+
+#: cf7_addons/mailchimp/class-plugin.php:22
+msgid "MailChimp"
+msgstr ""
+
+#: cf7_addons/mailchimp/controllers/mailchimp/class-ajax-check-apikey.php:23
+#: cf7_addons/mailerlite/controllers/mailerlite/class-ajax-check-apikey.php:23
+msgid ""
+"An empty API key is "
+"provided."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:44
+#: cf7_addons/mailerlite/forms/class-cf7-settings.php:44
+msgid "API Key *"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:46
+msgid ""
+"API key is required for "
+"integration with "
+"Mailchimp. It is used to "
+"get lists, fields and "
+"add subscribers. If API "
+"key is not defined, the "
+"integration will not "
+"work."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:54
+#: cf7_addons/mailerlite/forms/class-cf7-settings.php:54
+msgid "Name"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:56
+#: cf7_addons/mailerlite/forms/class-cf7-settings.php:56
+msgid ""
+"Values of the selected "
+"form element(s) will be "
+"used as name of "
+"subscriber."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:68
+#: cf7_addons/mailerlite/forms/class-cf7-settings.php:68
+msgid "Email *"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:70
+#: cf7_addons/mailerlite/forms/class-cf7-settings.php:70
+msgid ""
+"Select a form element "
+"which contains "
+"subscriber's email."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:84
+#: cf7_addons/mailchimp/forms/class-settings.php:45
+msgid "Double opt-in"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:86
+#: cf7_addons/mailchimp/forms/class-settings.php:47
+msgid ""
+"If the parameter is "
+"enabled, a user will be "
+"added to list(s) when "
+"click by a confirmation "
+"link from invitation "
+"mail otherwise the user "
+"will be added "
+"automatically."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:94
+msgid "Update existing"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:96
+msgid ""
+"If the parameter is "
+"enabled and subscriber "
+"with the specified email "
+"exist, subscriber's data "
+"will be updated "
+"otherwise nothing happen "
+"and a message will be "
+"added to application log."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-cf7-settings.php:104
+#: cf7_addons/mailerlite/forms/class-cf7-settings.php:94
+msgid "Subscribe to"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-settings.php:35
+#: cf7_addons/mailerlite/forms/class-settings.php:35
+msgid "API Key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/class-settings.php:37
+msgid ""
+"Mailchimp API key is "
+"required for integration "
+"with Mailchimp. If want "
+"to integrate several "
+"forms with Mailchimp, "
+"you can enter a key only "
+"once here and then use "
+"it in the forms. API key "
+"can also be entered "
+"directly in form "
+"settings."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/class-mailchimp-apikey-list.php:19
+#: cf7_addons/mailchimp/forms/fields/class-mailchimp-apikey-selector.php:9
+#: cf7_addons/mailerlite/forms/fields/class-mailerlite-apikey-list.php:19
+#: cf7_addons/mailerlite/forms/fields/class-mailerlite-apikey-selector.php:9
+msgid "The key is valid"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/class-mailchimp-apikey-list.php:20
+#: cf7_addons/mailchimp/forms/fields/class-mailchimp-apikey-selector.php:10
+#: cf7_addons/mailerlite/forms/fields/class-mailerlite-apikey-list.php:20
+#: cf7_addons/mailerlite/forms/fields/class-mailerlite-apikey-selector.php:10
+msgid ""
+"The key can not be empty"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-list.php:4
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-list.php:4
+msgid "Enter API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-list.php:5
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-list.php:5
+msgid "Check API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-list.php:10
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:83
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-list.php:10
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:83
+msgid "Where get API key?"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:18
+msgid ""
+"Click here to define "
+"MailChimp API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:25
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:25
+msgid "Change API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:32
+msgid ""
+"Specify MailChimp API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:44
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:77
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:44
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:77
+msgid "API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:49
+msgid ""
+"- Select MailChimp API "
+"key -"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:60
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:60
+msgid "Enter a new API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:80
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:80
+msgid "Enter an API key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:95
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:95
+msgid "<< Key list"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:101
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:101
+msgid "Validate"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-apikey-selector.php:102
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:102
+msgid "Use this key"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:2
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:2
+msgid "List field"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:3
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:3
+msgid "Form tag"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:5
+msgid ""
+"Users will be subscribed "
+"to the selected list(s)"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:13
+msgid ""
+"If a form element is "
+"selected then users will "
+"be added to MailChimp "
+"lists only if populate "
+"the selected form "
+"element. Leave value of "
+"the parameter is empty "
+"if confirmation of "
+"subscription does not "
+"require."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:13
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:24
+msgid "Confirm field"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:16
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:86
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:27
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:74
+msgid ""
+"- Select form field -"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:27
+msgid "Add list"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:32
+msgid "Delete list"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:38
+msgid ""
+"Users will be added the "
+"selected MailChimp "
+"list(s)"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:38
+msgid "List *"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:41
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:16
+msgid "Select a list"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:43
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:18
+msgid "Reload lists"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:49
+msgid ""
+"Enable the parameter if "
+"want to populate "
+"MailChimp list fields "
+"with values of form "
+"elements."
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:49
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:35
+msgid "Custom fields"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:59
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:47
+msgid "Add field"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:60
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:48
+msgid "Reload fields"
+msgstr ""
+
+#: cf7_addons/mailchimp/forms/fields/tmpl/mailchimp-subscription-list.php:76
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:64
+msgid "- Select a field -"
+msgstr ""
+
+#: cf7_addons/mailchimp/views/cf7-panel/class-html.php:27
+msgid ""
+"Do you want to remove "
+"the selected list "
+"section?"
+msgstr ""
+
+#: cf7_addons/mailchimp/views/cf7-panel/tmpl/default.php:3
+msgid ""
+"MailChimp Integration"
+msgstr ""
+
+#: cf7_addons/mailchimp/views/cf7-panel/tmpl/default.php:5
+#, php-format
+msgid ""
+"Select or enter a "
+"MailChimp API key then "
+"navigate to <a href=\"%s"
+"\">Email</a> parameter "
+"and select a form "
+"element which contains "
+"subscriber's email. "
+"Select list(s) in "
+"\"Subscribe to → List\" "
+"drop-down. Other "
+"parameters are optional."
+msgstr ""
+
+#: cf7_addons/mailchimp/views/cf7-panel/tmpl/default.php:7
+#: cf7_addons/mailerlite/views/cf7-panel/tmpl/default.php:7
+#, php-format
+msgid ""
+"If some form elements "
+"are not shown, <a href="
+"\"#\" onclick=\"%s"
+"\">save</a> form "
+"settings to update "
+"element list."
+msgstr ""
+
+#: cf7_addons/mailchimp/views/cf7-panel/tmpl/default.php:13
+#, php-format
+msgid ""
+"Mailchimp integration is "
+"provided by <a href=\"%s"
+"\" target=\"_blank"
+"\">Contact Form 7 "
+"Connector</a> plugin."
+msgstr ""
+
+#: cf7_addons/mailerlite/class-plugin.php:22
+msgid "MailerLite"
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/class-cf7-settings.php:46
+msgid ""
+"API key is required for "
+"integration with "
+"MailerLite. It is used "
+"to get lists, fields and "
+"add subscribers. If API "
+"key is not defined, the "
+"integration will not "
+"work."
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/class-settings.php:37
+msgid ""
+"MailerLite API key is "
+"required for integration "
+"with MailerLite. If want "
+"to integrate several "
+"forms with MailerLite, "
+"you can enter a key only "
+"once here and then use "
+"it in the forms. API key "
+"can also be entered "
+"directly in form "
+"settings."
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:18
+msgid ""
+"Click here to define "
+"MailerLite API key"
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:32
+msgid ""
+"Specify MailerLite API "
+"key"
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-apikey-selector.php:49
+msgid ""
+"- Select MailerLite API "
+"key -"
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:5
+msgid ""
+"Users will be subscribed "
+"to the selected group(s)"
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:13
+msgid ""
+"Users will be added the "
+"selected MailerLite "
+"group(s)"
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:13
+msgid "Group *"
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:24
+msgid ""
+"If a form element is "
+"selected then users will "
+"be added to MailerLite "
+"lists only if populate "
+"the selected form "
+"element. Leave value of "
+"the parameter is empty "
+"if confirmation of "
+"subscription does not "
+"require."
+msgstr ""
+
+#: cf7_addons/mailerlite/forms/fields/tmpl/mailerlite-subscription-list.php:35
+msgid ""
+"Enable the parameter if "
+"want to populate list "
+"fields with values of "
+"form elements."
+msgstr ""
+
+#: cf7_addons/mailerlite/views/cf7-panel/tmpl/default.php:3
+msgid ""
+"MailerLite Integration"
+msgstr ""
+
+#: cf7_addons/mailerlite/views/cf7-panel/tmpl/default.php:5
+#, php-format
+msgid ""
+"Select or enter a "
+"MailerLite API key then "
+"navigate to <a href=\"%s"
+"\">Email</a> parameter "
+"and select a form "
+"element which contains "
+"subscriber's email. "
+"Select groups(s) in "
+"\"Subscribe to → Group\" "
+"drop-down. Other "
+"parameters are optional."
+msgstr ""
+
+#: cf7_addons/mailerlite/views/cf7-panel/tmpl/default.php:13
+#, php-format
+msgid ""
+"MailerLite integration "
+"is provided by <a href="
+"\"%s\" target=\"_blank"
+"\">Contact Form 7 "
+"Connector</a> plugin."
+msgstr ""
+
+#: contact-form-7-connector.php:44
+#, php-format
+msgid ""
+"update PHP version on "
+"your server from v. %s "
+"to at least v. %s"
+msgstr ""
+
+#: contact-form-7-connector.php:50
+msgid ""
+"install PHP SPL extension"
+msgstr ""
+
+#: contact-form-7-connector.php:54
+#, php-format
+msgid ""
+"update WordPress v. %s "
+"to at least v. %s"
+msgstr ""
+
+#: contact-form-7-connector.php:61
+#, php-format
+msgid ""
+"\"Contact Form 7 "
+"Connector\" can not be "
+"activated. It requires "
+"PHP version 5.4.0+ with "
+"SPL extension and "
+"WordPress 4.0+.<br /"
+"><br /"
+"><b>Recommendations:</b> "
+"%s.<br /><br /><a href="
+"\"%s\" class=\"button "
+"button-primary\">Back</a>"
+msgstr ""
+
+#: contact-form-7-connector.php:84
+#, php-format
+msgid ""
+"\"Contact Form 7 "
+"Connector\" requires PHP "
+"v. 5.4.0+, but PHP "
+"version %s is used on "
+"the site."
+msgstr ""
+
+#: includes/class-plugin.php:73
+#: includes/class-plugin.php:74
+msgid "CF7 Connector"
+msgstr ""
+
+#: includes/class-plugin.php:221
+msgid "Settings"
+msgstr ""
+
+#: includes/class-plugin.php:222
+#: includes/views/settings/tmpl/default.php:21
+msgid "Support"
+msgstr ""
+
+#: includes/class-plugin.php:223
+#: includes/views/settings/class-html.php:66
+msgid "Upgrade"
+msgstr ""
+
+#: includes/controllers/log/class-display.php:26
+#, php-format
+msgid ""
+"`%s` log is not "
+"supported."
+msgstr ""
+
+#: includes/controllers/log/class-display.php:31
+msgid "The log is empty"
+msgstr ""
+
+#: includes/controllers/settings/class-save.php:28
+msgid ""
+"Settings are saved "
+"successfully."
+msgstr ""
+
+#: includes/controllers/settings/class-save.php:42
+msgid ""
+"The settings are not "
+"saved. Probably data are "
+"corrupted or a database "
+"connection is broken."
+msgstr ""
+
+#: includes/forms/class-settings.php:20
+msgid ""
+"If the parameter is "
+"enabled, the extension "
+"will log events like "
+"\"Add subscriber\" and "
+"etc."
+msgstr ""
+
+#: includes/forms/class-settings.php:21
+msgid ""
+"If the parameter is "
+"enabled, all errors will "
+"be saved into a log. It "
+"is useful if need to "
+"investigate a problem."
+msgstr ""
+
+#: includes/forms/class-settings.php:22
+msgid "View log"
+msgstr ""
+
+#: includes/forms/class-settings.php:35
+msgid "Disabled add-ons"
+msgstr ""
+
+#: includes/forms/class-settings.php:37
+msgid ""
+"The selected add-ons "
+"will be disabled and not "
+"be used with \"Contact "
+"Form 7\" plugin. Disable "
+"all add-ons which is not "
+"required for your site "
+"for better performance."
+msgstr ""
+
+#: includes/forms/class-settings.php:45
+msgid "Application log"
+msgstr ""
+
+#: includes/forms/class-settings.php:62
+msgid "Debug log"
+msgstr ""
+
+#: includes/forms/class-settings.php:79
+msgid "Clean uninstall"
+msgstr ""
+
+#: includes/forms/class-settings.php:81
+msgid ""
+"If the parameter is "
+"enabled, all data will "
+"be removed from a "
+"database when the plugin "
+"is uninstalled. Do not "
+"activate the parameter "
+"if want to upgrade to "
+"PRO version or re-"
+"install the plugin and "
+"need to save all "
+"settings."
+msgstr ""
+
+#: includes/helpers/class-app-helper.php:18
+msgid "OK"
+msgstr ""
+
+#: includes/helpers/class-app-helper.php:20
+msgid ""
+"The request is failed."
+msgstr ""
+
+#: includes/helpers/class-screen.php:11
+msgid "Help"
+msgstr ""
+
+#: includes/helpers/class-screen.php:13
+#, php-format
+msgid ""
+"User's guide is "
+"available <a href=\"%s\" "
+"target=\"_blank\">here</"
+"a>."
+msgstr ""
+
+#: includes/views/settings/class-html.php:12
+#, php-format
+msgid ""
+"Contact Form 7 Connector "
+"- Settings v. %s"
+msgstr ""
+
+#: includes/views/settings/class-html.php:34
+msgid "General"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:17
+msgid "Helpful links"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:24
+msgid ""
+"Write a review and give "
+"a rating"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:27
+msgid ""
+"Follow us on Twitter"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:30
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:37
+msgid "Other plugins"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:41
+msgid ""
+"<b>CF7 Editor Button</b> "
+"adds editor button to "
+"embed shortcodes"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:44
+msgid ""
+"<b>ARI Fancy Lightbox</"
+"b> is the best lightbox "
+"plugin"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:47
+msgid ""
+"<b>ARI Stream Quiz</b> "
+"is viral quiz builder"
+msgstr ""
+
+#: includes/views/settings/tmpl/default.php:62
+msgid "Save Changes"
+msgstr ""

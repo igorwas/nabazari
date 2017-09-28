@@ -1,0 +1,1022 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Advanced Reviews\n"
+"POT-Creation-Date: 2017-03-02 10:43+0100\n"
+"PO-Revision-Date: 2017-08-02 13:41+0300\n"
+"Last-Translator: Ігор Кіт <ihor@nabazari.in.ua>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../functions.php:87
+msgid ""
+"YITH WooCommerce Advanced Reviews is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:53
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1568
+msgid "Author"
+msgstr "Автор"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:54
+msgid "Review"
+msgstr "Відгук"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:55
+msgid "Date"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:56
+msgid "Rate"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:57
+#: ../templates/reports/class.ywar-review-report.php:136
+msgid "Product"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:342
+#: ../includes/class.yith-advanced-reviews-list-table.php:441
+msgid "Restore"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:343
+msgid "Move to bin"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:345
+#: ../includes/class.yith-advanced-reviews-list-table.php:446
+msgid "Delete permanently"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:346
+msgid "Approve reviews"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:347
+msgid "Unapprove reviews"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:360
+msgid "All"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:361
+#: ../includes/class.yith-advanced-reviews-list-table.php:443
+msgid "Bin"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:362
+msgid "Not approved"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:418
+msgid "[No Title]"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:426
+#, php-format
+msgctxt "a link from a reply that points to the parent review"
+msgid "In reply to %s"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:462
+#: ../templates/ywar-review.php:48
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Оцінка %d з 5"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:464
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1784
+#: ../templates/ywar-review.php:50
+msgid "out of 5"
+msgstr "з 5"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:479
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1383
+msgid "Edit"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:482
+msgid "View"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:498
+#: ../templates/ywar-review.php:24
+msgid "Anonymous"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:525
+msgid "Y/m/d g:i:s a"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:532
+#, php-format
+msgid "%s ago"
+msgstr "%s тому"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:534
+msgid "Y/m/d"
+msgstr ""
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:571
+msgid "No reviews found."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:512
+msgid "Add to featured"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:513
+msgid "Remove from featured"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:514
+msgid "Block replies"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:515
+msgid "Unblock replies"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:572
+msgid "Inappropriate content"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:573
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:940
+msgid "Reply blocked"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:574
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:939
+msgid "Featured"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:581
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:282
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:283
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:820
+#: ../templates/reports/class.ywar-review-report.php:137
+#: ../templates/ywar-product-reviews.php:39
+msgid "Reviews"
+msgstr "Відгуки"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:584
+msgid "By most commented"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:590
+msgid "By average rate"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:596
+msgid "By min rate"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:602
+msgid "By max rate"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:816
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2107
+msgid "Impossible to filter by rate"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:938
+msgid "Inappropriate"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:975
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:980
+msgid "Report for inappropriate content"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:996
+msgid "Select/Deselect this as a featured review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1013
+msgid "Select/Deselect to block any reply of this review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1238
+msgid "Flag as inappropriate content"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1296
+msgid "Reply to a previous review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1297
+msgid "Reply"
+msgstr "Відповісти"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1361
+msgid "This review cannot receive replies"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1361
+msgid "Block reply"
+msgstr "Блокувати відповіді"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1364
+msgid "This review cannot receive comments."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1367
+msgid "Allow replies"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1367
+msgid "Allow reply"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1379
+msgid "Edit to a previous review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1483
+msgid "Was this review helpful to you?"
+msgstr "Вважаєте цей відгук корисним?"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1484
+msgid "This reviews is helpful"
+msgstr "Цей відгук є корисним"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1485
+msgid "This reviews is not helpful"
+msgstr "Цей відгук \"не по темі\""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1512
+msgid "Most recent reviews"
+msgstr "Спочатку найновіші відгуки"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1513
+msgid "Most helpful reviews"
+msgstr "Спочатку найкорисніші відгуки"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1552
+#, php-format
+msgid "Reviews with %s star"
+msgid_plural "Reviews with %s stars"
+msgstr[0] "Відгуки з %s зіркою"
+msgstr[1] "Відгуки з %s зірками"
+msgstr[2] "Відгуки з %s зірок"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1583
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2163
+msgid "star"
+msgid_plural "stars"
+msgstr[0] "зірка"
+msgstr[1] "зірки"
+msgstr[2] "зірок"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1584
+#, php-format
+msgid "%d reviews with rating of %s %s (%s of %s)"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1586
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2168
+msgid "(Show unfiltered results)"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1642
+msgctxt "The user tried to upload more files than allowed."
+msgid "Too many files selected!"
+msgstr "Надто багато файлів вибрано!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1643
+msgctxt "The user tried to upload files with extension or size not allowed."
+msgid ""
+"One or more file was not accepted because do not match the expected "
+"requirements"
+msgstr "Файл занадто великий або не підтримується формат файлу."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1644
+msgctxt "No attachment is selected"
+msgid "No Files Selected"
+msgstr "Не вибрано жодного файлу"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1669
+msgid "Please, write a review"
+msgstr "Будь ласка, напишіть свій відгук"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1670
+msgid "Please, select a rating before submitting your review"
+msgstr "Будь ласка почтавце оцінку, перш ніж публікувати свій відгук"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1671
+msgid "Edit review"
+msgstr "Редагувати відгук"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1672
+#: ../plugin-options/premium-options.php:113
+msgid "Reply to review"
+msgstr "Відповісти на відгук"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1673
+#: ../templates/ywar-product-reviews.php:74
+msgid "Add a review"
+msgstr "Додати відгук"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1967
+msgid "Thanks for your message, we will check the content of the review."
+msgstr ""
+"Дякуємо за повідомлення. Тепер текст пройде швидку модерацію і буде "
+"опублікований."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2031
+#, php-format
+msgid "%s of %s people found this review helpful"
+msgstr "%s з %s людей вважають цей відгук корисним"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2078
+msgid "Product ID is not valid"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2086
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2202
+msgid "Product ID is in an invalid format"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2165
+#, php-format
+msgid "%d reviews with rate of %d %s (%d of %d)"
+msgstr "%d відгуків з оцінкою %d %s (%d з %d)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2450
+#: ../plugin-options/premium-options.php:67
+msgid ""
+"Only allow one review for a product. Require \"Only allow reviews from "
+"verified owners\" to be set to work properly"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2478
+msgid ""
+"You can't add more than one review for this product. Would you like to edit "
+"the review you have already written?"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:238
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1209
+msgid "Review title"
+msgstr "Заголовок відгука"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:473
+msgid "Approve review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:473
+msgid "Approve"
+msgstr "Прийняти"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:475
+msgid "Unapprove review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:475
+msgid "Unapprove"
+msgstr "Відхилити"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:541
+#, php-format
+msgid "Rated %s out of 5 stars"
+msgstr "Оцінка %s з 5 зірок"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:551
+msgid " review"
+msgid_plural " reviews"
+msgstr[0] "відгук"
+msgstr[1] "відгуки"
+msgstr[2] "відгуків"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:595
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:616
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:619
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:696
+msgid "Premium Version"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:632
+msgid ""
+"YITH WooCommerce Advanced Reviews is available in an outstanding PREMIUM "
+"version with many new options, discover it now."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:633
+msgid "Premium version"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:640
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:652
+msgid "YITH WooCommerce Advanced Reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:641
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews options. "
+"From this menu you can access all settings of YITH plugins activated."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:653
+msgid ""
+"From now on, you can find all YITH WooCommerce Advanced Reviews options in "
+"YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> "
+"Advanced Reviews, as in the previous version. Any time one of our plugins is "
+"updated, a new entry will be added to this menu."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:689
+msgid "General"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:690
+msgid "Layout"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:694
+msgid "Voting/Review settings"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:702
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:703
+msgid "Advanced Reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:761
+msgid "Too many files selected!"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:762
+msgid "No Files Selected"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:818
+msgctxt "Post Type General Name"
+msgid "Reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:819
+msgctxt "Post Type Singular Name"
+msgid "Review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:821
+msgid "Parent Review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:822
+msgid "All reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:823
+msgid "View review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:824
+msgid "Add New Review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:825
+msgid "Add New"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:826
+msgid "Edit Review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:827
+msgid "Update Review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:828
+msgid "Search Review"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:829
+msgid "Not Found"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:830
+msgid "Not found in bin"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:836
+msgid "YIT Product reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:837
+msgid "Advanced WooCommerce product reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1314
+msgid "Your Rating"
+msgstr "Ваш рейтинг"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1316
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1317
+msgid "Perfect"
+msgstr "Чудесно"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1318
+msgid "Good"
+msgstr "Добре"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1319
+msgid "Average"
+msgstr "Посередньо"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1320
+msgid "Not that bad"
+msgstr "Таке собі"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1321
+msgid "Very Poor"
+msgstr "Дуже сумно"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1330
+msgid "Attachments"
+msgstr "Вкладення"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1331
+msgid "Choose file(s)"
+msgstr "Вибрати файл(-и)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1336
+#, php-format
+msgid "Use one of the allowed file type: %s. "
+msgstr "Використайте дозволений тип файлу: %s. "
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1340
+#, php-format
+msgid "The max size allowed is : %s MB."
+msgstr "Допустимий розмір файлу не більше : %s MB."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1427
+#, php-format
+msgid "Reviews (%d)"
+msgstr "Відгуки (%d)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1469
+msgid "Review information"
+msgstr "Інформація про відгук"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1530
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1549
+msgid "Block review edit"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1555
+msgid "The review author is a registered user."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1556
+msgid "User profile"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1559
+msgid "Use user data"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1576
+msgid "Author email"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1781
+#: ../templates/ywar-rating.php:24
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1810
+msgid "Convert reviews"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1813
+msgid ""
+"If this is the first time you install the YITH Advanced Reviews plugin, or "
+"if you are using an older version prior to the 1.1.0, first you have to "
+"convert the older reviews if you want to use them."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1837
+#, php-format
+msgid "Task completed. %d reviews have been processed and converted."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1839
+msgid "Task completed. No review to convert has been found."
+msgstr ""
+
+#: ../plugin-options/general-options.php:20
+msgid "General settings"
+msgstr ""
+
+#: ../plugin-options/general-options.php:25
+msgid "Show title"
+msgstr ""
+
+#: ../plugin-options/general-options.php:27
+msgid "Add a title field in the reviews."
+msgstr ""
+
+#: ../plugin-options/general-options.php:32
+msgid "Show attachments"
+msgstr ""
+
+#: ../plugin-options/general-options.php:34
+msgid "Add an attachment section in the reviews."
+msgstr ""
+
+#: ../plugin-options/general-options.php:39
+msgid "Attachment type"
+msgstr ""
+
+#: ../plugin-options/general-options.php:41
+msgid "Set the file type allowed as the review attachment"
+msgstr ""
+
+#: ../plugin-options/general-options.php:47
+msgid "Multiple attachment limit"
+msgstr ""
+
+#: ../plugin-options/general-options.php:49
+msgid ""
+"Set the maximum number of attachments that can be selected (0 = no limit)."
+msgstr ""
+
+#: ../plugin-options/general-options.php:54
+msgid "Attachment max size"
+msgstr ""
+
+#: ../plugin-options/general-options.php:56
+msgid "Set the file max size allowed in MB. Set to 0 for no size limit."
+msgstr ""
+
+#: ../plugin-options/general-options.php:66
+msgid "Review content selector"
+msgstr ""
+
+#: ../plugin-options/general-options.php:68
+msgid ""
+"Set the id or CSS class that matches the review tab content (default: #tab-"
+"reviews)."
+msgstr ""
+
+#: ../plugin-options/general-options.php:97
+msgid "Previous reviews"
+msgstr ""
+
+#: ../plugin-options/layout-options.php:21
+msgid "Layout options"
+msgstr ""
+
+#: ../plugin-options/layout-options.php:27
+msgid "Fixed background bar color"
+msgstr ""
+
+#: ../plugin-options/layout-options.php:34
+msgid "Percentage bar color"
+msgstr ""
+
+#: ../plugin-options/layout-options.php:41
+msgid "Show percentage value"
+msgstr ""
+
+#: ../plugin-options/layout-options.php:43
+msgid "Show % value on percentage bars."
+msgstr ""
+
+#: ../plugin-options/layout-options.php:48
+msgid "Rating label color"
+msgstr ""
+
+#: ../plugin-options/layout-options.php:55
+msgid "Percentage value color"
+msgstr ""
+
+#: ../plugin-options/layout-options.php:62
+msgid "Rating count color"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:21
+msgid "Voting system"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:26
+msgid "Show vote section"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:28
+msgid "Allow user to upvote or downvote a review."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:34
+msgid "Show review votes"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:36
+msgid "Add a string stating how many people found the review useful."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:42
+msgid "Enable vote for all"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:44
+msgid "Allow unregistered users to vote the reviews."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:53
+msgid "Review settings"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:59
+msgid "Manual review approval"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:61
+msgid ""
+"When a user submits a review, it should be manually approved to be showed"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:66
+msgid "Limit multiple reviews"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:73
+msgid "Edit reviews"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:74
+msgid "Allow the users to edit their review"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:80
+msgid "Number of reviews to display"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:82
+msgid "Limit the maximum number of reviews to display, 0 for unlimited"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:92
+msgid "\"Load more\""
+msgstr ""
+
+#: ../plugin-options/premium-options.php:94
+msgid ""
+"Choose if reviews should be shown grouped and which link style should be "
+"applied."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:97
+msgid "Don't group reviews"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:98
+msgid "Group reviews and show a textual link on bottom"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:99
+msgid "Group reviews and show a button link on bottom"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:105
+msgid "Modal window"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:107
+msgid "Display reviews filtered by rate in a modal window."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:115
+msgid "Choose who can reply to a review."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:118
+msgid "No one can reply"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:119
+msgid "Only administrators can reply"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:120
+msgid "Everyone can reply"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:126
+msgid "Inappropriate reviews"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:128
+msgid "Let users report a review as inappropriate content."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:131
+msgid "Not enabled"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:132
+msgid "Only registered users can report an inappropriate content"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:133
+msgid "Everyone can report an inappropriate content"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:139
+msgid "Hiding threshold"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:141
+msgid ""
+"Hide temporarily a review when a specific number of users has flagged it as "
+"inappropriate. Set this value to 0 to never hide automatically the reviews."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:151
+msgid "Featured reviews"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:153
+msgid ""
+"Number of reviews to show as featured items. Set this value to 0 to never "
+"show featured reviews."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:163
+msgid "\"Load more\" text"
+msgstr ""
+
+#: ../plugin-options/premium-options.php:165
+msgid "Text to show in the textual link or button."
+msgstr ""
+
+#: ../plugin-options/premium-options.php:168
+msgid "Load more"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:43
+msgid "Export CSV"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:56
+msgid "Year"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:57
+msgid "Last Month"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:58
+msgid "This Month"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:138
+msgid "Best rate"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:139
+msgid "Worst rate"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:140
+msgid "Average rate"
+msgstr ""
+
+#: ../templates/reports/class.ywar-review-report.php:162
+msgid "No reviews found in this period"
+msgstr ""
+
+#: ../templates/reports/ywar-html-review-report.php:23
+msgid "Custom:"
+msgstr ""
+
+#: ../templates/reports/ywar-html-review-report.php:41
+msgid "Go"
+msgstr ""
+
+#: ../templates/ywar-product-reviews-table.php:17
+msgid "Product reviews"
+msgstr ""
+
+#: ../templates/ywar-product-reviews-table.php:23
+msgid "Search reviews"
+msgstr ""
+
+#: ../templates/ywar-product-reviews.php:37
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../templates/ywar-product-reviews.php:57
+msgid "There are no reviews yet."
+msgstr "Поки немає відгуків."
+
+#: ../templates/ywar-product-reviews.php:74
+msgid "Be the first to review"
+msgstr "Будьте першим хто оцінить"
+
+#: ../templates/ywar-product-reviews.php:75
+msgid "Write a reply"
+msgstr ""
+
+#: ../templates/ywar-product-reviews.php:79
+msgid "Name"
+msgstr ""
+
+#: ../templates/ywar-product-reviews.php:81
+msgid "Email"
+msgstr ""
+
+#: ../templates/ywar-product-reviews.php:84
+msgid "Submit"
+msgstr "Надіслати"
+
+#: ../templates/ywar-product-reviews.php:89
+msgid "Your Review"
+msgstr "Ваш відгук"
+
+#: ../templates/ywar-product-reviews.php:100
+msgid ""
+"Only logged in customers who have purchased this product may write a review."
+msgstr ""
+"Тільки зареєстровані покупці, що купили цей продукт можуть залишити відгук."
+
+#: ../templates/ywar-product-reviews.php:103
+msgid "Edit my reviews"
+msgstr "Редагувати мої відгуки"
+
+#: ../templates/ywar-rating.php:26
+#, php-format
+msgid "out of %s5%s"
+msgstr "з %s5%s"
+
+#: ../templates/ywar-rating.php:27
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "на основі %s відгуку покупців"
+msgstr[1] "на основі %s відгуках покупців"
+msgstr[2] "на основі %s відгуків покупців"
+
+#: ../templates/ywar-rating.php:32
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s відгук від покупців"
+msgstr[1] "%s відгуки від покупців"
+msgstr[2] "%s відгуків від покупців"
+
+#: ../templates/ywar-review.php:58
+msgid "Your comment is waiting for approval"
+msgstr "Ваш відгук на модерації"
+
+#: ../templates/ywar-review.php:69
+msgid "verified owner"
+msgstr "Перевірений власник"
+
+#: ../templates/ywar-single-product-reviews.php:28
+msgid "Customers' review"
+msgstr "Відгуки від покупців"
+
+#: ../templates/ywar-single-product-reviews.php:42
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s зірка"
+msgstr[1] "%s зірки"
+msgstr[2] "%s зірок"

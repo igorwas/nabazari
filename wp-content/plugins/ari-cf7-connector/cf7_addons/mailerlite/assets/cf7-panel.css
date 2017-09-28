@@ -1,0 +1,39 @@
+.ari-cf7c-mailerlite-apikey-popup {
+    max-width: 560px;
+}
+
+.ari-cf7c-mailerlite-apikey-current-panel {
+    display: none;
+}
+
+.ari-cf7c-mailerlite-apikey-defined .ari-cf7c-mailerlite-apikey-current-panel {
+    display: block;
+}
+
+.ari-cf7c-mailerlite-apikey-defined .ari-cf7c-mailerlite-apikey-new-panel {
+    display: none;
+}
+
+.ari-cf7c-mailerlite-apikey-manual {
+    margin-top: 10px;
+}
+
+.ari-cf7-mailerlite-subscription-list .ari-cloner-template.ari-last-item .ari-cf7c-mailchimp-list-separator {
+    display: none;
+}
+
+.ari-cf7c-mailerlite-customfields-hidden .ari-cf7c-mailerlite-customfields-container {
+    display: none;
+}
+
+.ari-cf7c-mailerlite-customfields-container LABEL {
+    font-weight: 600;
+}
+
+TD.ari-cf7c-mailerlite-list-container {
+    white-space: nowrap;
+}
+
+.ari-cf7c-mailerlite-customfields-template.ari-first-item.ari-last-item .ari-fly-action-panel {
+    display: none;
+}

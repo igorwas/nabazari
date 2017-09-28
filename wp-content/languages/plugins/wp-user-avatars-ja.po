@@ -1,0 +1,108 @@
+# Translation of Development (trunk) in Japanese
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-01 12:49:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: includes/admin.php:26
+msgid "Allowed Roles"
+msgstr "許可された権限グループ"
+
+#: includes/admin.php:29
+msgid "Block Gravatar"
+msgstr "Gravatar をブロック"
+
+#: includes/admin.php:44
+msgid "Prevent avatar requests from reaching out to Gravatar.com."
+msgstr "アバターリクエストの Gravatar.com への到達を防止する。"
+
+#: includes/admin.php:62
+msgid "Upload Options"
+msgstr "アップロード設定"
+
+#: includes/admin.php:136
+msgid "Choose an Avatar"
+msgstr "アバターを選択"
+
+#: includes/admin.php:137
+msgid "Set as avatar"
+msgstr "アバターとして設定"
+
+#: includes/admin.php:159
+msgid "Avatar"
+msgstr "アバター"
+
+#: includes/admin.php:190
+msgid "Upload"
+msgstr "アップロード"
+
+#: includes/admin.php:219
+msgid "Choose from Media"
+msgstr "メディアから選択"
+
+#: includes/admin.php:236
+msgid "Remove"
+msgstr "削除"
+
+#: includes/admin.php:256 includes/admin.php:259
+msgid "Rating"
+msgstr "評価"
+
+#: includes/ajax.php:36
+msgid "You do not have permission to edit this user."
+msgstr "このユーザーを編集する権限がありません。"
+
+#: includes/errors.php:22
+msgid "This image file appears to be invalid, or violates an upload rule."
+msgstr "この画像ファイルは無効またはアップロードルールに違反しています。"
+
+#: includes/errors.php:33
+msgid "Avatar upload failed."
+msgstr "アバターのアップロードに失敗しました。"
+
+#: includes/functions.php:148
+msgid "Suitable for all audiences"
+msgstr "あらゆる人に適切"
+
+#: includes/functions.php:149
+msgid "Possibly offensive, usually for audiences 13 and above"
+msgstr "不快感を与える恐れ &#8212; 13歳以上の人向き"
+
+#: includes/functions.php:150
+msgid "Intended for adult audiences above 17"
+msgstr "17歳以上の成人向き"
+
+#: includes/functions.php:151
+msgid "Even more mature than above"
+msgstr "最高レベルの制限"
+
+#: includes/metabox.php:25
+msgctxt "users user-admin edit screen"
+msgid "Avatar"
+msgstr "アバター"
+
+#. Plugin Name of the plugin/theme
+msgid "WP User Avatars"
+msgstr "WP User Avatars"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-user-avatars/"
+msgstr "https://wordpress.org/plugins/wp-user-avatars/"
+
+#. Description of the plugin/theme
+msgid "Avatars for your users, without Gravatar"
+msgstr "Gravatar 非使用でユーザーにアバターを提供。"
+
+#. Author of the plugin/theme
+msgid "John James Jacoby"
+msgstr "John James Jacoby"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/johnjamesjacoby/"
+msgstr "https://profiles.wordpress.org/johnjamesjacoby/"
