@@ -65,7 +65,12 @@ i.icon-heart{
 .button.icon.circle{
     color: transparent;
 }
+/* один із варіантів виправити проблему з назвами продуктів і виробником у мінікартах(випадаюча корзина) 
+.mini_cart_item a{
+    display: inline !important;
+}
 
+*/
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
