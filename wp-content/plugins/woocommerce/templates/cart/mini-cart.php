@@ -53,10 +53,10 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 							<?php echo str_replace( array( 'http:', 'https:' ), '', $thumbnail ) . $product_name . '&nbsp;'; ?>
 						<?php else : ?>
 							<a href="<?php echo esc_url( $product_permalink ); ?>">
-								<?php echo str_replace( array( 'http:', 'https:' ), '', $thumbnail ) . $product_name . '&nbsp;'; ?>
+								<?php echo str_replace( array( 'http:', 'https:' ), '', $thumbnail ) .substr($product_name,0,strpos($product_name,'(',0)). '</a><small style="color:#544538;">(Від '. str_replace('<a', '<a style="display: inline;"',  str_replace("</small>)", ")</small>",substr($product_name,strrpos($product_name,'<a',0)))) . '&nbsp;'; ?>
 							</a>
 						<?php endif; ?>
-						<?php echo WC()->cart->get_item_data( $cart_item ); ?>
+						<?php echo WC()->cart->get_item_data( $cart_item ); ?> 
 
 						<?php echo apply_filters( 'woocommerce_widget_cart_item_quantity', '<span class="quantity">' . sprintf( '%s &times; %s', $cart_item['quantity'], $product_price ) . '</span>', $cart_item, $cart_item_key ); ?>
 					</li>
